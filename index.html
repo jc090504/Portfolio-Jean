@@ -118,7 +118,7 @@
             0% { clip: rect(10px, 9999px, 65px, 0); }
             100% { clip: rect(80px, 9999px, 30px, 0); }
         }
-        
+
     </style>
 </head>
 <body class="bg-grid custom-hover"> <div id="custom-cursor"></div> <canvas id="matrix-canvas"></canvas>
@@ -142,7 +142,10 @@
         <section class="min-h-screen flex flex-col justify-center relative">
             <div class="absolute -left-10 top-1/4 mono text-[10px] opacity-20 rotate-90 origin-left tracking-[0.5em]">DEVELOPER FULL STACK</div>
             <h1 class="text-[12vw] leading-[0.8] font-black uppercase tracking-tighter mb-12 animate__animated animate__fadeInUp">
-                Jean<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-white">Costa_</span>
+                Jean<br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-white">
+                    Costa<span class="animate-pulse text-purple-500">_</span>
+                </span>
             </h1>
             <div class="flex flex-wrap gap-6 items-center animate__animated animate__fadeInUp animate__delay-1s">
                 <a href="#contact" class="custom-hover px-8 py-4 bg-purple-700 rounded-xl font-bold uppercase tracking-widest text-sm hover:bg-purple-600 transition duration-300 shadow-[0_0_20px_rgba(168,85,247,0.5)]">
@@ -172,7 +175,7 @@
                 </div>
         
                 <div class="lg:col-span-7 mono">
-                    <div class="text-purple-500 mb-2 opacity-70">// IDENTITY_REPORT // BIO</div>
+                    <div class="text-purple-500 mb-2 opacity-70">// IDENTIDADE_ENCONTRADA // BIO</div>
                     <h2 class="text-6xl font-black uppercase mb-8 glitch-text custom-hover" data-text="JEAN COSTA">
                         JEAN COSTA
                     </h2>
@@ -200,7 +203,7 @@
 
         <section id="projetos" class="py-32">
             <div class="flex items-center gap-6 mb-16">
-                <h2 class="text-5xl font-black uppercase tracking-tight">Project_Log</h2>
+                <h2 class="text-5xl font-black uppercase tracking-tight">LOG_Projetos</h2>
                 <span class="mono text-purple-600 text-sm mt-2">[ STATUS: ONLINE ]</span>
             </div>
 
@@ -238,77 +241,124 @@
         </section>
 
         <section id="stack" class="py-32 border-y border-white/5 bg-[#080808]">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div>
-                    <div class="mono text-purple-500 mb-2">// HARD_SKILLS // MONITORING</div>
-                    <h2 class="text-5xl font-black uppercase tracking-tight mb-6">Core_Stack</h2>
-                    <p class="text-gray-400 max-w-md mb-10">Monitoramento em tempo real das competências técnicas e tecnologias dominadas.</p>
+            <div class="container mx-auto px-6">
+                <div class="mb-16">
+                    <div class="mono text-purple-500 mb-2">// HARD_SKILLS // MONITOR</div>
+                    <h2 class="text-5xl font-black uppercase tracking-tight">Conhecimentos</h2>
+                    <p class="text-gray-400 max-w-md mt-4">Monitoramento de performance das tecnologias dominadas em ambiente de produção.</p>
                 </div>
-                <div class="grid grid-cols-2 gap-6 mono text-sm">
-                    <div class="hw-card p-6 border-l-2 border-l-purple-500">
-                        <div class="text-gray-500 text-xs mb-1">FRONTEND // UI</div>
-                        <div class="text-lg font-bold">Tailwind / React</div>
-                        <div class="w-full h-1 bg-gray-800 mt-2"><div class="h-full bg-purple-500 w-[95%]"></div></div>
+        
+                <div class="grid grid-cols-1 gap-4 mono text-sm">
+                    
+                    <div class="hw-card p-6 border-l-4 border-l-purple-500 flex flex-col md:flex-row md:items-center justify-between gap-6 group">
+                        <div class="min-w-[200px]">
+                            <div class="text-gray-500 text-[10px] mb-1">MODULE_01 // FRONTEND</div>
+                            <div class="text-xl font-bold tracking-tighter">TAILWIND / REACT / HTML / CSS / JS</div>
+                        </div>
+                        <div class="flex-grow">
+                            <div class="flex justify-between mb-2 text-[10px]">
+                                <span class="text-purple-400">LOAD_CAPACITY</span>
+                                <span class="text-purple-400">80%</span>
+                            </div>
+                            <div class="w-full h-2 bg-gray-900 rounded-full overflow-hidden">
+                                <div class="h-full bg-purple-500 w-[80%] transition-all duration-1000 group-hover:bg-purple-400"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="hw-card p-6 border-l-2 border-l-blue-500">
-                        <div class="text-gray-500 text-xs mb-1">DATA // BACKEND</div>
-                        <div class="text-lg font-bold">SQL / Python</div>
-                        <div class="w-full h-1 bg-gray-800 mt-2"><div class="h-full bg-blue-500 w-[90%]"></div></div>
+        
+                    <div class="hw-card p-6 border-l-4 border-l-blue-500 flex flex-col md:flex-row md:items-center justify-between gap-6 group">
+                        <div class="min-w-[200px]">
+                            <div class="text-gray-500 text-[10px] mb-1">MODULE_02 // BACKEND & DATA</div>
+                            <div class="text-xl font-bold tracking-tighter">SQL / MYSQL / JAVA / NODE </div>
+                        </div>
+                        <div class="flex-grow">
+                            <div class="flex justify-between mb-2 text-[10px]">
+                                <span class="text-blue-400">LOAD_CAPACITY</span>
+                                <span class="text-blue-400">90%</span>
+                            </div>
+                            <div class="w-full h-2 bg-gray-900 rounded-full overflow-hidden">
+                                <div class="h-full bg-blue-500 w-[90%] transition-all duration-1000 group-hover:bg-blue-400"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="hw-card p-6 border-l-2 border-l-green-500">
-                        <div class="text-gray-500 text-xs mb-1">ANALYTICS // BI</div>
-                        <div class="text-lg font-bold">Power BI / Excel</div>
-                        <div class="w-full h-1 bg-gray-800 mt-2"><div class="h-full bg-green-500 w-[85%]"></div></div>
+        
+                    <div class="hw-card p-6 border-l-4 border-l-green-500 flex flex-col md:flex-row md:items-center justify-between gap-6 group">
+                        <div class="min-w-[200px]">
+                            <div class="text-gray-500 text-[10px] mb-1">MODULE_03 // ANALYTICS</div>
+                            <div class="text-xl font-bold tracking-tighter">POWER BI / EXCEL</div>
+                        </div>
+                        <div class="flex-grow">
+                            <div class="flex justify-between mb-2 text-[10px]">
+                                <span class="text-green-400">LOAD_CAPACITY</span>
+                                <span class="text-green-400">70%</span>
+                            </div>
+                            <div class="w-full h-2 bg-gray-900 rounded-full overflow-hidden">
+                                <div class="h-full bg-green-500 w-[70%] transition-all duration-1000 group-hover:bg-green-400"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="hw-card p-6 border-l-2 border-l-yellow-500">
-                        <div class="text-gray-500 text-xs mb-1">HARDWARE // IOT</div>
-                        <div class="text-lg font-bold">Reparo / Eletrônica</div>
-                        <div class="w-full h-1 bg-gray-800 mt-2"><div class="h-full bg-yellow-500 w-[80%]"></div></div>
-                    </div>
+        
                 </div>
             </div>
         </section>
 
         <section id="experience" class="py-32 container mx-auto px-6">
             <div class="flex items-center gap-6 mb-20">
-                <h2 class="text-5xl font-black uppercase tracking-tight">Event_Logs</h2>
+                <h2 class="text-5xl font-black uppercase tracking-tight">LOG_Eventos</h2>
                 <div class="h-[2px] flex-grow bg-gradient-to-r from-purple-600 to-transparent"></div>
                 <span class="mono text-purple-600 text-xs mt-2">[ DATABASE: UPDATED ]</span>
             </div>
         
             <div class="relative space-y-12 before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-purple-500/50 before:to-transparent">
                 
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group animate__animated animate__fadeIn">
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-purple-500 bg-black text-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.4)] z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[45%] hw-card p-6 border-l-4 border-l-purple-600">
-                        <div class="flex items-center justify-between mb-2">
-                            <time class="mono text-[10px] text-purple-400">PAST_LOG > EXPERIENCE</time>
-                            <span class="tech-badge bg-black/80 text-purple-400 border-purple-500/30">YOUNG_APPRENTICE</span>
+                <div class="relative space-y-12 before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-purple-500/50 before:to-transparent">
+    
+                    <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group animate__animated animate__fadeIn">
+                        <div class="flex items-center justify-center w-10 h-10 rounded-full border border-purple-500 bg-black text-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.4)] z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                         </div>
-                        <h3 class="text-xl font-bold text-white uppercase tracking-tighter">Cobreflex Fios e Cabos</h3>
-                        <p class="text-gray-400 text-sm mt-3 leading-relaxed">Atuação técnica em ambiente industrial, desenvolvendo disciplina operacional e entendimento de infraestrutura elétrica.</p>
-                    </div>
-                </div>
-        
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group animate__animated animate__fadeIn animate__delay-1s">
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-blue-500 bg-black text-blue-500 z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 14l9-5-9-5-9 5 9 5z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[45%] hw-card p-6 border-l-4 border-l-blue-600">
-                        <div class="flex items-center justify-between mb-2">
-                            <time class="mono text-[10px] text-blue-400">STUDY_MODE > ON</time>
-                            <span class="tech-badge bg-black/80 text-blue-400 border-blue-400/30">ACADEMIC</span>
+                        <div class="w-[calc(100%-4rem)] md:w-[45%] hw-card p-6 border-l-4 border-l-purple-600">
+                            <div class="flex items-center justify-between mb-2">
+                                <time class="mono text-[10px] text-purple-400">LOG_PASSADO > EXPERIENCIAS</time>
+                                <span class="tech-badge bg-black/80 text-purple-400 border-purple-500/30 font-bold">Analista de suporte de TI</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-white uppercase tracking-tighter">Cobreflex Fios e Cabos</h3>
+                            <p class="text-gray-400 text-sm mt-3 leading-relaxed">Atuação técnica em ambientes industriais, e desenvolvimento de projetos de automatizações</p>
                         </div>
-                        <h3 class="text-xl font-bold text-white uppercase tracking-tighter">SENAI Jandira</h3>
-                        <p class="text-gray-400 text-sm mt-3 leading-relaxed">Especialização em Análise e Desenvolvimento de Sistemas, com foco em arquitetura de software e hardware.</p>
+                    </div>
+                
+                    <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group animate__animated animate__fadeIn animate__delay-1s">
+                        <div class="flex items-center justify-center w-10 h-10 rounded-full border border-green-500 bg-black text-green-500 z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </div>
+                        <div class="w-[calc(100%-4rem)] md:w-[45%] hw-card p-6 border-l-4 border-l-green-600">
+                            <div class="flex items-center justify-between mb-2">
+                                <time class="mono text-[10px] text-green-400">MODE_ESTUDO > COMPLETO</time>
+                                <span class="tech-badge bg-black/80 text-green-400 border-green-400/30 font-bold">GRADUATED</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-white uppercase tracking-tighter">Cruzeiro do Sul</h3>
+                            <p class="text-gray-400 text-sm mt-3 leading-relaxed">Graduado em Banco de Dados. Foco em modelagem, otimização e arquitetura de grandes volumes de informação.</p>
+                        </div>
+                    </div>
+                
+                    <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group animate__animated animate__fadeIn animate__delay-2s">
+                        <div class="flex items-center justify-center w-10 h-10 rounded-full border border-blue-500 bg-black text-blue-500 z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 14l9-5-9-5-9 5 9 5z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </div>
+                        <div class="w-[calc(100%-4rem)] md:w-[45%] hw-card p-6 border-l-4 border-l-blue-600">
+                            <div class="flex items-center justify-between mb-2">
+                                <time class="mono text-[10px] text-blue-400">MODE_ESTUDO > ON</time>
+                                <span class="tech-badge bg-black/80 text-blue-400 border-blue-400/30 font-bold">CURRENT</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-white uppercase tracking-tighter">SENAI Jandira</h3>
+                            <p class="text-gray-400 text-sm mt-3 leading-relaxed">Análise e Desenvolvimento de Sistemas. Aprimorando lógica de programação e integração de sistemas complexos.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="py-32 container max-w-4xl mx-auto">
+        <section id="contact" class="py-6 container max-w-4xl mx-auto">
             <div class="hw-card p-2">
                 <div class="bg-gray-950 p-6 flex justify-between items-center border-b border-hw-border">
                     <div class="flex gap-2">
@@ -320,8 +370,8 @@
                     <div class="w-4"></div>
                 </div>
                 <div class="p-10 mono text-sm">
-                    <div class="mb-4 text-purple-400">> INITIATING_CONTACT_PROTOCOL...</div>
-                    <div class="mb-4 text-gray-500">Awaiting user input. Please structure your message.</div>
+                    <div class="mb-4 text-purple-400">> INICIANDO_PROTOCOLO__DE_COMUNICACAO</div>
+                    <div class="mb-4 text-gray-500">Aguardando mensagem do usuario. Por favor estuture sua mensagem.</div>
                     <form class="space-y-6">
                         <div class="flex gap-2">
                             <span class="text-purple-500">user@guest:~$&nbsp;</span>
@@ -344,52 +394,41 @@
 
     </main>
 
-    <footer class="relative py-24 bg-black border-t border-white/5 mt-40">
-        <div class="container mx-auto px-6 relative z-10">
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-16">
-                
-                <div class="md:col-span-5">
-                    <h3 class="text-3xl font-black tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-white">
-                        JEAN COSTA_
-                    </h3>
-                    <div class="mono text-[10px] space-y-2 opacity-40 uppercase tracking-widest leading-relaxed">
-                        <p>> LOCAL_MACHINE: RTX_4060_OC</p>
-                        <p>> STACK: SQL | TAILWIND | JS | PYTHON</p>
-                        <p>> STATUS: READY_FOR_FREELANCE</p>
-                    </div>
+    <footer class="relative py-20 bg-[#030303] border-t border-purple-500/10 mt-40 overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-px h-12 bg-gradient-to-b from-purple-500 to-transparent"></div>
+
+        <div class="container mx-auto px-6 flex flex-col items-center">
+            
+            <div class="text-center mb-10">
+                <h3 class="text-xl font-black tracking-[0.3em] text-white opacity-80 mb-2">CONTATOS</h3>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <a href="https://linkedin.com/in/jeancostadev/" target="_blank" class="custom-hover hw-card px-6 py-3 flex items-center gap-3 border-white/5 hover:border-purple-500 transition-all duration-500 bg-white/[0.02]">
+                    <span class="w-2 h-2 bg-purple-500 rounded-full animate-pulse"></span>
+                    <span class="mono text-xs tracking-widest">LINKEDIN</span>
+                </a>
+                <a href="https://github.com/jc090504/" target="_blank" class="custom-hover hw-card px-6 py-3 flex items-center gap-3 border-white/5 hover:border-blue-500 transition-all duration-500 bg-white/[0.02]">
+                    <span class="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></span>
+                    <span class="mono text-xs tracking-widest">GITHUB</span>
+                </a>
+                <a href="https://wa.me/11953431941" target="_blank" class="custom-hover hw-card px-6 py-3 flex items-center gap-3 border-white/5 hover:border-green-500 transition-all duration-500 bg-white/[0.02]">
+                    <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                    <span class="mono text-xs tracking-widest">WHATSAPP</span>
+                </a>
+            </div>
+
+            <div class="w-full max-w-4xl pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="mono text-[8px] text-gray-600 uppercase tracking-[0.4em]">
+                    Environment: <span class="text-gray-400">Production</span> // Enabled
                 </div>
-    
-                <div class="md:col-span-3 mono text-xs space-y-4">
-                    <div class="text-purple-500 font-bold tracking-widest text-sm">// DIRECTORIES</div>
-                    <nav class="flex flex-col gap-3">
-                        <a href="#about" class="custom-hover hover:text-purple-400 transition">> IDENTITY_REPORT</a>
-                        <a href="#projetos" class="custom-hover hover:text-purple-400 transition">> PROJECT_LOG</a>
-                        <a href="#contact" class="custom-hover hover:text-purple-400 transition">> CONTACT_PROTOCOL</a>
-                    </nav>
-                </div>
-    
-                <div class="md:col-span-4 mono text-xs">
-                    <div class="text-purple-500 font-bold tracking-widest text-sm mb-6">// REMOTE_NODES</div>
-                    <div class="flex gap-4">
-                        <a href="https://linkedin.com/in/jeancostadev/" target="_blank" class="custom-hover hw-card p-4 hover:border-purple-500 transition-all">
-                            LINKEDIN.EXE
-                        </a>
-                        <a href="https://github.com/jc090504/" target="_blank" class="custom-hover hw-card p-4 hover:border-blue-500 transition-all">
-                            GITHUB.SH
-                        </a>
-                    </div>
+                <div class="mono text-[8px] text-gray-600 uppercase tracking-[0.4em]">
+                    &copy; 2026 // ITAPEVI // Brazil
                 </div>
             </div>
-    
-            <div class="mt-20 pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 mono text-[9px] text-gray-700 tracking-widest uppercase">
-                <p>LATENCY: 0.003MS // ENCRYPTION: AES-256</p>
-                <p>&copy; 2026 // JEAN COSTA // ANALISTA DE SISTEMAS</p>
-            </div>
         </div>
-    
-        <div class="absolute bottom-0 right-0 opacity-[0.02] pointer-events-none mono text-[20vw] leading-none font-black translate-y-1/2 translate-x-1/4">
-            DATA
-        </div>
+
+        <div class="absolute bottom-4 left-4 mono text-[8px] text-white/5 rotate-90 origin-left uppercase tracking-widest">Top_Secret_Data</div>
     </footer>
 
     <script src="script.js" defer></script>
